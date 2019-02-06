@@ -1,0 +1,14 @@
+{
+    "name":"readingLevel",
+    "version":"0.1",
+    "manifest_version":2,
+    "description":"Display the reading level of the website you're currently perusing!",
+    "browser_action":{
+        "default_icon":"booklogo.png",
+        "default_title": "Display the reading level of this website!",
+        "default_popup":"/templates/index.html"
+    },
+    "icons":{
+        "128":"booklogo.png"
+    }
+}
